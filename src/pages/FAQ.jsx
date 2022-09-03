@@ -1,5 +1,5 @@
-function FAQ() {
-    return <div>FAQ</div>;
-  }
-  
-  export default FAQ;
+function Faq() {
+  return <div>Faq</div>;
+}
+
+export default Faq;

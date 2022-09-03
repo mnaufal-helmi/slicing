@@ -1,25 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import { Home, Tentang, FAQ, Produk, Events, Partnership } from '..pages';
 
 const NavigationBar = () => {
   const navigate = useNavigate();
-
-  function toTentang() {
-    navigate('/Tentang');
-  }
-  function toFAQ() {
-    navigate('/FAQ');
-  }
-  function toProduk() {
-    navigate('/Produk');
-  }
-  function toEvents() {
-    navigate('/Events');
-  }
-  function toPartnership() {
-    navigate('/Partnership');
-  }
 
   return (
     <div>
@@ -35,7 +18,7 @@ const NavigationBar = () => {
               {' '}
               Produk
             </Nav.Link>
-            <Nav.Link href="FAQ" onClick={toFAQ}>
+            <Nav.Link href="Faq" onClick={toFaq}>
               {' '}
               FAQ
             </Nav.Link>
